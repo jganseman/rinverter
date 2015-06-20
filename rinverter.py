@@ -2,7 +2,7 @@
 # For Rhythm and Music Hackathon @ Spotify
 # (c) Joachim Ganseman, 20 June 2015
 
-# Usage: rinverter FILENAME
+# Usage: python ./rinverter.py FILENAME
 import sys
 import os
 from music21 import *
