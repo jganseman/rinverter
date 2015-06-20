@@ -14,7 +14,7 @@ Used Software:
 How it works: 
 * For every measure in every part of the score, the durations of every note, chord and rest are collected. 
 * Every duration, expressed in quarter notes, is inverted (such that a duration ratio of 1:2 becomes 2:1, 1:3 becomes 3:1, ...).
-* The result is scaled back to the original measure's duration, so the duration ratio between the notes remains the same.
+* The result is scaled back to fit the original measure's duration (preserving the new ratios).
 * Grace notes (with duration 0) are ignored.
 
 Bugs / Features:
