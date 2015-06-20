@@ -8,7 +8,7 @@ Goal: Invert the rhythm of every measure in a given score. Just run the script w
 
 Used Software: 
 * Python 2.7
-* music21 2.0.
+* music21 2.0.5
 * MuseScore 1.3
 
 How it works: 
